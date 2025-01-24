@@ -203,8 +203,8 @@ def admin():
         st.dataframe(order_clean_df.style.set_properties(**{'font-size': '16px'}))  # Larger font size
 
     elif choice == "About":
-        st.subheader("MIS Mini Project")
-        st.subheader("By Sabha gang")
+        st.subheader("DBMS Mini Project")
+        st.subheader("By Laxman and Arun")
 
 
 def getauthenicate(username, password):
